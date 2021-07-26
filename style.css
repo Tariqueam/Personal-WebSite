@@ -1,4 +1,4 @@
-        body {
+    body {
         font-family: 'Noto Sans JP', sans-serif;
     }
     /* navbar */
@@ -32,8 +32,9 @@
         color: orangered;
     }
     
-    section {
+    .flex-container {
         display: flex;
+        padding-bottom: 100px;
     }
     
     .half-width {
@@ -47,9 +48,76 @@
     
     .link-button {
         text-decoration: none;
-        padding: 10px 20px;
+        padding: 10px 30px;
         border-radius: 10px;
         color: white;
         font-weight: 700;
         background-color: coral;
         background-image: linear-gradient(coral, tomato);
+    }
+    /* project area */
+    
+    .work-text h1 {
+        text-align: center;
+    }
+    
+    .project-area {
+        width: 320px;
+        height: 420px;
+        padding: 20px;
+        margin: 40px;
+        box-shadow: 10px 10px 20px gray;
+        border-radius: 15px;
+    }
+    
+    .project-area:hover {
+        transform: scale(1.01);
+    }
+    
+    .work-photo img {
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+    .work-detail h2 {
+        text-align: center;
+    }
+    
+    .working-area {
+        margin-left: 2opx;
+    }
+    /* bottom ara */
+    
+    .inquiry img {
+        height: 180px;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .text h1 h3 {
+        text-align: center;
+        color: white;
+    }
+    
+    .bottom-text h3 {
+        text-align: center;
+        color: grey;
+    }
+    
+    .bottom-text h2 {
+        text-align: center;
+        color: black;
+    }
+    
+    .icon {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icon img {
+        height: 40px;
+        width: 40px;
+        margin: 15px;
+    }
